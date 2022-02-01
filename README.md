@@ -13,9 +13,9 @@ gunicorn -b 127.0.0.1:8000 app:application -w3
 
 ## Usage
 
-app.py
+`app.py`
 
-~~~
+~~~ python
 from simple_wsgi import Application
 from views import IndexView, AboutView
 
@@ -28,8 +28,8 @@ application = Application()
 application.add_views(views)
 ~~~
 
-views.py
-~~~
+`views.py`
+~~~ python
 from simple_wsgi.views import BaseView
 from simple_wsgi.decorators import route
 
