@@ -1,6 +1,6 @@
 # Simple WSGI
 
-> Simple WSGI framework. 
+> Simple WSGI framework with Class-based views. Used jinja2 for templates.
 
 Installation:
 ```
